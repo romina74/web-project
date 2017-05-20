@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+تمرین پژوهشی برنامه نویسی وب
 
-You can use the [editor on GitHub](https://github.com/romina74/web-project/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+رومینا جعفریان
+93105545
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+حقایق و شایعات درباره اسامی و مقدارها در پایتون
+Facts and myths about Python names and values
 
-### Markdown
+اسامی به مقادیر ارجاع میدهند
+ مقدار سمت راست در متغیر سمت چپ کپی نمیشود (assignment)در یک تخصیص
+بلکه یک ارجاع  از متغیر (اسم) سمت چپ به مقدار سمت راست ساخته میشود . اسامی
+هر اسم مستقل(reassigned)زیادی میتوانند به یک مقدار ارجاع دهند و تخصیص مجدد
+انجام میشود
+x=12
+y=x
+x=15
+#y=12,x=15
+استxمستقل از مقدار yدر اینجا مقدار  
+مقادیر تا وقتی وجود دارند که ارجاعی به آنها باشد در غیر اینصورت توسط 
+جمع آوری میشوندgarbage collection
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+مقادیر به دو نوع تغییر پذیر و غیر تغییر پذیر تقسیم بندی میشوند . تغییر پذیر یعنی مقدار تابعی دارد که میتواند در جا مقدار را عوض کند . اعداد و رشته ها و تاپل ها غیر تغییر پذیرند و تقریبا همه مقادیر به جز این سه دسته تغییر پذیرند. تغییر در مقدار توسط تمامی اسامی اش دیده میشود 
+nums= [1,2,3]
+tri=nums	
+nums.append(4)
+print(tri) #[1,2,3,4]
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/romina74/web-project/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+به طور کلی مفهوم متغیر در پایتون با سایر زبان های برنامه نویسی مانند سی و جاوا متفاوت است. در این زبان اسامی هیچ تایپ مشخصی ندارند و مقادیر نیز محدوده خاصی فقط برای پاک کردن اسامی del ندارند. امکان پاک کردن مقادیر نیز وجود ندارد و عبارت
+به کار میرود 
+نتیجه بحث مقادیر تغییر پذیر و غیر تغییر پذیر در فرخوانی توابع به این صورت هست  که مقادیر پاس داده شده به تابع باعث ساخت ارجاع جدید میشوند و کپی نمیشوند لذا تغییردر جا در مقادیر تغییر پذیر باعث میشود این تغییرات در بیرون تابع نیز دیده شوند ولی باید دقت کرد که عبارتی به صورت   
+#test=[1,2,3]
+test=test+[4,5]
+یک ارجاع جدیدی به لیستی جدید داردtestباعث تغییر لیست نمیشود و صرفا اسم 
