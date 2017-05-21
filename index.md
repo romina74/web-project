@@ -2,7 +2,7 @@
 .main-content {
     direction: rtl;
     font-family: sans-serif;
-    font-size: 1.5 rem;
+    font-size: 2rem;
 }
 .eng {
     direction: ltr;
