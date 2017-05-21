@@ -1,7 +1,12 @@
 <style>
 .main-content {
+    @import url(https://fonts.googleapis.com/css?family='Tahoma');
+    @font-face{
+    	font-family: 'Tahoma';
+	src: url('BNazanin.ttf');
+    }
     direction: rtl;
-    font-family: sans-serif;
+    font-family: 'Tahomo',sans-serif;
     font-size: 1.5rem;
 }
 .eng {
@@ -96,4 +101,6 @@ nums=[1,2,3]<br>
 change(nums,4)<br>
 print(nums)   #[1,2,3]<br>
 </p>
-یک ارجاع جدیدی به لیستی جدید داردtestباعث تغییر لیست نمیشود و صرفا اسم 
+باعث تغییر لیست نمیشود و یک ارجاع جدیدی به لیستی جدید دارد 
+
+
