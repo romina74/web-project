@@ -2,6 +2,7 @@
 .main-content {
     direction: rtl;
     font-family: sans-serif;
+    font-size: 1.5 rem;
 }
 .eng {
     direction: ltr;
@@ -34,6 +35,6 @@ x = 23
 <br>
 y = x
 <br>
-# "Now I have two values: x and y!"
+# "Now I have two values: x and y!" <br>
 # NO: you have two names, but only one value.
 </p> 
