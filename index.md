@@ -87,3 +87,12 @@ nums=[1,2,3]<br>
 change(nums,4)<br>
 print(nums)   #[1,2,3,4]<br>
 </p>
+
+ولی باید دقت کرد که عبارتی به صورت 
+<p class="eng">
+def change(my_list,a):<br>
+	my_list=my_list+[a]<br>
+nums=[1,2,3]<br>
+change(nums,4)<br>
+print(nums)   #[1,2,3]<br>
+</p>
