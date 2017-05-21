@@ -1,6 +1,6 @@
-<style> direction:rtl; 
+<style>
 .main-content {
-    font-family: 'Scheherazade', Tahoma;
+    font-family: sans-serif;
 }
 </style>
 
