@@ -1,4 +1,9 @@
-<style> direction:rtl </style>
+<style> direction:rtl; 
+@font-face {
+       font-family: MUli;
+       src: url("https://fonts.google.com/specimen/Muli");
+}
+</style>
 
 
 
