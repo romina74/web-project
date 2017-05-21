@@ -1,4 +1,4 @@
-<style> direction=rtl </style>
+<style> direction:rtl </style>
 
 
 
