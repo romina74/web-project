@@ -1,7 +1,6 @@
 <style> direction:rtl; 
-@font-face {
-       font-family: MUli;
-       src: url("https://fonts.google.com/specimen/Muli");
+.main-content {
+    font-family: 'Scheherazade', Tahoma;
 }
 </style>
 
