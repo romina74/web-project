@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 .eng {
-    direction: ltr
+    direction: ltr;
 }
 </style>
  تمرین پژوهشی برنامه نویسی وب
